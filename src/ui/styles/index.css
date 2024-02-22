@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 1px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o "thumb" (a alça da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Cor do "thumb" da barra de rolagem */
+  border-radius: 3px; /* Raio de borda do "thumb" */
+}
+
+/* Estilizando a trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* Cor da trilha da barra de rolagem */
+}
